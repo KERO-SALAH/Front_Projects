@@ -1,0 +1,95 @@
+input {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  border: 5px soild;
+  border-color: rgb(0 0 0 / 10%);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  font-size: 50px;
+}
+input:hover {
+  background-color: #3e3e44;
+}
+table {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.zero {
+  width: 100%;
+}
+.display input {
+  background-color: beige;
+  width: 100%;
+  margin-bottom: 40px;
+  border: 2px solid black;
+  color: black;
+}
+.display {
+  padding: 20px;
+}
+.op {
+  background-color: hsl(35, 100%, 55%);
+}
+.op:hover {
+  background-color: hsl(35deg 95.78% 48.66%);
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  background-color: rgb(194, 194, 173);
+
+  padding: 20px;
+
+  border: 5px soild;
+  border-color: rgb(0 0 0 / 10%);
+  box-shadow: 0 8px 15px rgb(99 92 92 / 88%);
+  border-radius: 20px;
+  width: 440px;
+  border: 5px solid;
+  border-radius: 20px;
+  border-color: black;
+}
+.name {
+  text-align: left;
+  margin: 0;
+  
+  display: inline;
+  padding: 0px 10px;
+  border-left: 5px solid;
+  padding-top:10px ;
+}
+.name::after{
+  border: 3px;
+  width: 0;
+  height: 0;
+  border-color: red green red green;
+}
+img{
+  width: 100px;
+}
+.version {
+  background-color:black ;
+  color: white;
+  width: 20px;
+  height: 20px;
+
+  text-align: center;
+  margin: 0;
+  display: inline;
+  padding: 0px 10px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}

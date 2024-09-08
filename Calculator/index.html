@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="table">
+        <table>
+          <tr></tr>
+          <td colspan="4">
+            <div class="top">
+              <h3 class="name">calculator</h3>
+              <img src="https://i.ibb.co/jRRc1R8/Picsart-24-05-18-13-42-30-197.png" alt="">
+            </div>
+          </td>
+          <tr>
+            <td colspan="4">
+              <div class="display">
+                <input id="display" type="text" readonly />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="one" onclick="add('1')" type="button" value="1" />
+            </td>
+            <td><input type="button" onclick="add('2')" value="2" /></td>
+            <td><input type="button" onclick="add('3')" value="3" /></td>
+            <td>
+              <input type="button" onclick="add('+')" class="op" value="+" />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" onclick="add('4')" value="4" /></td>
+            <td><input type="button" onclick="add('5')" value="5" /></td>
+            <td><input type="button" onclick="add('6')" value="6" /></td>
+            <td>
+              <input type="button" onclick="add('-')" class="op" value="-" />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" onclick="add('7')" value="7" /></td>
+            <td><input type="button" onclick="add('8')" value="8" /></td>
+            <td><input type="button" onclick="add(9)" value="9" /></td>
+            <td>
+              <input type="button" style="padding-top: 24px;" onclick="add('*')" class="op" value="*" />
+            </td>
+          </tr>
+          <tr>
+            <td><input type="button" onclick="c()" class="op" value="C" /></td>
+            <td colspan="2">
+              <input onclick="add('0')" class="zero" type="button" value="0" />
+            </td>
+            <td>
+              <input type="button" onclick="cal()" class="op" value="=" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
